@@ -1,0 +1,14 @@
+.crucigrama {
+    display: grid;
+    grid-template-columns: repeat(10, 40px); /* Ajusta el número de columnas según el tamaño deseado */
+    gap: 1px;
+  }
+  
+  .celda {
+    width: 40px; /* Ajusta el tamaño de las celdas según tus preferencias */
+    height: 40px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+  }
